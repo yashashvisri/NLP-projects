@@ -20,3 +20,44 @@ This project implements a **Next Word Prediction Model** using **LSTM (Long Shor
 - Keras
 - NumPy
 - Google Colab
+
+## Model Architecture
+
+```text
+Embedding Layer (100 Dimensions)
+        ↓
+LSTM Layer (150 Units)
+        ↓
+Dense Layer (Softmax Activation)
+```
+
+### Model Configuration
+
+| Parameter | Value |
+|------------|--------|
+| Vocabulary Size | 283 |
+| Embedding Dimension | 100 |
+| LSTM Units | 150 |
+| Activation Function | Softmax |
+| Optimizer | Adam |
+| Loss Function | Categorical Crossentropy |
+
+## Workflow
+
+1. Load and preprocess the text corpus.
+2. Tokenize the text using Keras Tokenizer.
+3. Create input sequences.
+4. Pad sequences to a fixed length.
+5. Train an LSTM model on the prepared data.
+6. Predict the next word for a given input sequence.
+7. Generate multiple words iteratively.
+
+## Example
+
+### Input
+
+```text
+nlp and deep learning
+```
+
+### Generated Output

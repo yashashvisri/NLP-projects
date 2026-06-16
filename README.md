@@ -61,3 +61,47 @@ nlp and deep learning
 ```
 
 ### Generated Output
+
+```text
+nlp and deep learning both are important concepts
+```
+
+> Output may vary depending on training data and model weights.
+
+## Installation
+
+```bash
+pip install tensorflow numpy
+```
+
+## Running the Project
+
+Open the notebook in Google Colab or Jupyter Notebook and run all cells:
+
+```bash
+jupyter notebook
+```
+
+## Future Improvements
+
+- Train on larger datasets
+- Use Bidirectional LSTM
+- Experiment with GRU networks
+- Implement Beam Search
+- Deploy using Streamlit
+- Add attention mechanisms
+
+## Learning Outcomes
+
+This project helped me understand:
+
+- Natural Language Processing (NLP)
+- Text tokenization and preprocessing
+- Sequence generation
+- LSTM networks
+- Language modeling
+- Deep learning with TensorFlow
+
+## Author
+
+Developed as part of my NLP and Deep Learning learning journey.

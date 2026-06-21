@@ -19,7 +19,6 @@ This project implements a **Next Word Prediction Model** using **LSTM (Long Shor
 - TensorFlow
 - Keras
 - NumPy
-- Google Colab
 
 ## Model Architecture
 
